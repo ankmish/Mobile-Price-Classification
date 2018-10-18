@@ -1,0 +1,3 @@
+First of all inpput features are scaled to avoid the effect of dominance of features with high values. Then, the data set is split into train set and test set in the ratio 4:1.
+	Then, through visualisation techniques like heatmap it was observed that no to features have a very high amount of correlation ( highest correlation was around 0.6).
+	Then, differnt classifiers like Decision Tree Classifier, Kneighbors Classifier were applied. Highest accuracy was observed when SVM classifier was applied and cross validation and hyper-parameter tuning ws done with the help og GridSearchCV.
